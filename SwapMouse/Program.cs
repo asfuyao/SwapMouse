@@ -73,17 +73,17 @@ namespace SwapMouse
                 {
                     SwapMouseButton(0);
                     SetMouseCursor(".\\right\\");
-                    Console.WriteLine("MouseButtons swapped to right");
-                    Console.WriteLine("Press any key to exit...");
-                    Console.ReadLine();
+                    //Console.WriteLine("MouseButtons swapped to right");
+                    //Console.WriteLine("Press any key to exit...");
+                    //Console.ReadLine();
                 }
                 else
                 {
                     SwapMouseButton(1);
                     SetMouseCursor(".\\left\\");
-                    Console.WriteLine("MouseButtons swapped to left");
-                    Console.WriteLine("Press any key to exit...");
-                    Console.ReadLine();
+                    //Console.WriteLine("MouseButtons swapped to left");
+                    //Console.WriteLine("Press any key to exit...");
+                    //Console.ReadLine();
                 }
             }
             catch (Exception)
